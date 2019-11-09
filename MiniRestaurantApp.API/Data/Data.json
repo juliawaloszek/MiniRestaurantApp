@@ -1,0 +1,252 @@
+[
+    {
+      "Id": 482,
+      "Name": "SNIADANIE NA LATO",
+      "FiscalName": "SNIADANIE NA LATO",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 25
+    },
+    {
+      "Id": 483,
+      "Name": "SNIADANIE ANGIELSKIE",
+      "FiscalName": "SNIADANIE ANGIELSKIE",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 21
+    },
+    {
+      "Id": 480,
+      "Name": "OWSIANKA",
+      "FiscalName": "OWSIANKA",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 11
+    },
+    {
+      "Id": 481,
+      "Name": "JAJKA ROYAL",
+      "FiscalName": "JAJKA ROYAL",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 23
+    },
+    {
+      "Id": 478,
+      "Name": "KANAPKA PASTA JAJKO",
+      "FiscalName": "KANAPKA PASTA JAJKO",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 9
+    },
+    {
+      "Id": 479,
+      "Name": "KANAPKA TWAROG",
+      "FiscalName": "KANAPKA TWAROG",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 9
+    },
+    {
+      "Id": 476,
+      "Name": "JAJKA SADZONE",
+      "FiscalName": "JAJKA SADZONE",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 10
+    },
+    {
+      "Id": 477,
+      "Name": "JAJKO 1 SZTUKA",
+      "FiscalName": "JAJKO 1 SZTUKA",
+      "BasicUnit": "szt.",
+      "SalesCategory": "Śniadania",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 4
+    },
+    {
+      "Id": 760,
+      "Name": "DZBANEK GRAPEFRUIT",
+      "FiscalName": "DZBANEK GRAPEFRUIT",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 8,
+      "BasicPrice": 25
+    },
+    {
+      "Id": 761,
+      "Name": "DZBANEK SOK JABLKO",
+      "FiscalName": "DZBANEK SOK JABLKO",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 25
+    },
+    {
+      "Id": 813,
+      "Name": "GRAPEFRUIT SWIEZY",
+      "FiscalName": "GRAPEFRUIT SWIEZY",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 15
+    },
+    {
+      "Id": 890,
+      "Name": "POMARANCZ SWIEZY",
+      "FiscalName": "POMARANCZ SWIEZY",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 15
+    },
+    {
+      "Id": 866,
+      "Name": "MIESZANY SWIEZY SOK",
+      "FiscalName": "MIESZANY SWIEZY SOK",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 15
+    },
+    {
+      "Id": 931,
+      "Name": "SOK POMARANCZOWY BUT 0,25",
+      "FiscalName": "SOK POMARANCZOWY BUT 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 930,
+      "Name": "SOK MULTIVITAMINA BUT. 0,2",
+      "FiscalName": "SOK MULTIVITAMINA BUT. 0,2",
+      "BasicUnit": "but 0.2L",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 929,
+      "Name": "SOK JABLKOWY BUT. 0,25",
+      "FiscalName": "SOK JABLKOWY BUT. 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 928,
+      "Name": "SOK GRAPEFRUIT BUT. 0,25",
+      "FiscalName": "SOK GRAPEFRUIT BUT. 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 927,
+      "Name": "SOK CZARNA PORZECZKA BUT. 0,25",
+      "FiscalName": "SOK CZARNA PORZECZKA BUT. 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 932,
+      "Name": "SOK POMIDOROWY BUT. 0,25",
+      "FiscalName": "SOK POMIDOROWY BUT. 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 8%",
+      "Vat": 8,
+      "BasicPrice": 8
+    },
+    {
+      "Id": 2036,
+      "Name": "MONIN 20 ML",
+      "FiscalName": "MONIN 20 ML",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 3
+    },
+    {
+      "Id": 2511,
+      "Name": "FENTI BIG TOM POMIDOROWY 0,25",
+      "FiscalName": "FENTI BIG TOM POMIDOROWY 0,25",
+      "BasicUnit": "but 0.25",
+      "SalesCategory": "Soki",
+      "SalesDept": "Napoje 23%",
+      "Vat": 23,
+      "BasicPrice": 14
+    },
+    {
+      "Id": 1061,
+      "Name": "SALATA CEZAR KURCZAK",
+      "FiscalName": "SALATA CEZAR KURCZAK",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Sałatki",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 33
+    },
+    {
+      "Id": 2723,
+      "Name": "SALATA FALAFEL",
+      "FiscalName": "SALATA FALAFEL",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Sałatki",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 31
+    },
+    {
+      "Id": 590,
+      "Name": "SALATA KOZI SER",
+      "FiscalName": "SALATA KOZI SER",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Sałatki",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 33
+    },
+    {
+      "Id": 593,
+      "Name": "SALATA BAWOLA MOZARELLA",
+      "FiscalName": "SALATA BAWOLA MOZARELLA",
+      "BasicUnit": "porcja",
+      "SalesCategory": "Sałatki",
+      "SalesDept": "Jedzenie",
+      "Vat": 8,
+      "BasicPrice": 33
+    }
+  ]

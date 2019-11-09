@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using MiniRestaurantApp.API.Models;
+using Newtonsoft.Json;
 
 namespace MiniRestaurantApp.API.Controllers
 {
@@ -10,11 +12,14 @@ namespace MiniRestaurantApp.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var data = System.IO.File.ReadAllText(@"Data/Data.json");
+            var dataToReturn = JsonConvert.DeserializeObject<IEnumerable<RestaurantData>>(data);
+            return Ok(dataToReturn);
         }
 
         // GET api/values/5
