@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./test-component.component.css']
 })
 export class TestComponentComponent implements OnInit {
-  data: any;
+  values: any;
 
   constructor( private http: HttpClient) { }
 
@@ -18,7 +18,7 @@ export class TestComponentComponent implements OnInit {
   getData() {
     this.http.get('http://localhost:5000/api/values').subscribe (
       response => {
-          this.data = response;
+          this.values = response;
       }, error => {
         console.log(error);
       });
