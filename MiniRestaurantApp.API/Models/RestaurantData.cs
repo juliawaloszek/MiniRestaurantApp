@@ -8,7 +8,7 @@ namespace MiniRestaurantApp.API.Models
         public string BasicUnit { get; set; }
         public string SalesCategory { get; set; }
         public string SalesDept { get; set; }
-        public string Vat { get; set; }
-        public string BasicPrice { get; set; }
+        public int Vat { get; set; }
+        public int BasicPrice { get; set; }
     }
 }

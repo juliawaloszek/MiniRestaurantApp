@@ -3,24 +3,35 @@ import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { AngularSlickgridModule  } from 'angular-slickgrid';
 import { TranslateModule } from '@ngx-translate/core';
+import { FormsModule } from '@angular/forms';
+import { MatTabsModule } from '@angular/material/tabs';
+
+import { NgxPaginationModule } from 'ngx-pagination';
 
 import { AppComponent } from './app.component';
-import { TestComponentComponent } from './test-component/test-component.component';
-import { GridBasicComponent } from './grid-basic/grid-basic.component';
+import { RestaurantService } from './_services/restaurant.service';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
    declarations: [
       AppComponent,
-      TestComponentComponent,
-      GridBasicComponent
+      HomeComponent
    ],
    imports: [
       TranslateModule.forRoot(),
       AngularSlickgridModule.forRoot(),
       BrowserModule,
-      HttpClientModule
+      HttpClientModule,
+      FormsModule,
+      MatTabsModule,
+      NoopAnimationsModule,
+      NgxPaginationModule
    ],
-   providers: [],
+   providers: [
+      RestaurantService
+   ],
    bootstrap: [
       AppComponent
    ]

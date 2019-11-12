@@ -1,0 +1,4 @@
+.slick-group>.slick-cell {
+    border-bottom: 2px solid silver !important;
+    border-top: none !important;
+}

@@ -1,0 +1,21 @@
+<div class="container-fluid" >
+
+    <div class="row col-sm-12">
+      <button class="btn btn-default btn-xs" (click)="groupByProduct()">
+        Grupowanie po produkcie
+      </button>
+
+      <button class="btn btn-default btn-xs" (click)="groupByCategory()">
+          Grupowanie po kategorii 
+        </button>
+    </div>
+  
+  
+    <angular-slickgrid gridId="grid1"
+                       [dataset]="dataset"
+                       [columnDefinitions]="columnDefinitions"
+                       [gridOptions]="gridOptions"
+                       (onAngularGridCreated)="angularGridReady($event)"                     
+                       >
+    </angular-slickgrid>
+  </div>
